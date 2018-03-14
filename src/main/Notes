@@ -1,0 +1,11 @@
+-----------------------------------
+To use Git in Intellij
+-------------------------------------
+
+On Windows machines, by default cmd.exe is used. To change it, open settings (Ctrl+Alt+s) and type Terminal:
+
+    Shell Path : "C:\Program Files\Git\bin\sh.exe" --login -i
+
+To use Git bash I use the following shell path: "C:\Program Files (x86)\Git\bin\sh.exe" --login -i. Now when
+I open terminal window (Alt+F12) I see Git bash that is opened in the project's folder,
+so I can immediately start using it:
