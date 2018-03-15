@@ -1,3 +1,4 @@
+/*
 package com.gagan.shopping.demo.configuration;
 
 
@@ -32,3 +33,4 @@ public class CustomAuthenticationSuccessHandler implements AuthenticationSuccess
         redirectStrategy.sendRedirect(request, response, targetUrl);
     }
 }
+*/

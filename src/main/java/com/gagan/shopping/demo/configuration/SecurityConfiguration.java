@@ -1,3 +1,4 @@
+/*
 package com.gagan.shopping.demo.configuration;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -33,3 +34,4 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
                 .withUser("admin").password("dinesh").roles("ADMIN");
     }
 }
+*/
