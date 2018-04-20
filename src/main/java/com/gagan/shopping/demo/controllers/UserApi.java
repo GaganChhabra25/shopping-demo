@@ -10,10 +10,11 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import javax.validation.Valid;
 import javax.validation.metadata.MethodType;
+import java.security.spec.InvalidKeySpecException;
 
 @RequestMapping(value = BaseApi.USER)
 public interface UserApi {
 
     @RequestMapping(value = {"create"}, method = RequestMethod.POST)
-    public ResponseEntity createUser(@Valid @RequestBody UserWS userWS, BindingResult bindingResult);
+    public ResponseEntity createUser(@Valid @RequestBody UserWS userWS, BindingResult bindingResult) throws InvalidKeySpecException;
 }
